@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Felicidades Pablo</string>
+
+    <string name="dummy_button">Have a Nice Day</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="msj">imagen</string>
+</resources>

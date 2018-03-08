@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Aplicacion de Prueba</string>
+    <string name="msj1">Mensaje por recurso</string>
+</resources>
