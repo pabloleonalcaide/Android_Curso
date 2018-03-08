@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConversorDivisa</string>
+    <string-array name="conversiones">
+        <item>Euro a dolares</item>
+        <item>Euro a libras</item>
+        <item>Libra a dolares</item>
+        <item>Libra a euros</item>
+        <item>Dolar a euros</item>
+        <item>Dolar a libras</item>
+    </string-array>
+
+</resources>

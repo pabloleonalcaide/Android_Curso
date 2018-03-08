@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blue">Azul</string>
+    <string name="purple">Purpura</string>
+    <string name="gray">Gris</string>
+    <string name="orange">Naranja</string>
+    <string name="red">Rojo</string>
+    <string name="winplayer">Ganaste</string>
+    <string name="winmachine">PERDISTE!</string>
+    <string name="tableroLLeno">TABLERO LLENO"</string>
+    <string name="gameOverMessage">Se acabo</string>
+    <string name="send_to">prueba</string>
+    <string name="exit_message">¿Quieres volver a jugar?</string>
+    <string name="No">No</string>
+    <string name="Si">Claro</string>
+    <string name="titleExit">Partida Terminada</string>
+    <string name="app_name">Conecta 4</string>
+    <string name="nosepuedecolocarficha">No se puede colocar fichar</string>
+
+    <string name="acerca_de">Acerca De</string>
+    <string name="exit_text">Salir</string>
+
+    <string name="pref_basicas">Preferencias básicas</string>
+    <string name="pref_show_exit_dialog">¿Mostrar diálogo de salida?</string>
+    <string name="pref_show_exit_dialog_summary">mostrar diálogo de confirmación de salida</string>
+    <string name="salir_de_la_app">Salir de la App</string>
+    <string name="initialImage"> Imagen inicial</string>
+    <string name="secondCategoryPrefTitle">Ajustes del juego</string>
+    <string name="checBoxPrefTitle">Música de fondo</string>
+    <string name="checBoxPrefSummary">¿Música?</string>
+    <string name="preferences">Preferencias</string>
+
+
+    <string name="playernameTitle">Nombre del jugador</string>
+    <string name="playernamesummary">Pulse para indicar el nombre del jugador</string>
+
+    <string name="colorTitle">Color de la ficha</string>
+    <string name="colorSummary">Pulse para cambiar el color de la ficha del jugador</string>
+
+    <string name="player_name">Nombre del jugador</string>
+
+    <string name="winerplayer">¡Has ganado!</string>
+    <string name="winermachine">¡La máquina ha ganado!</string>
+
+
+</resources>
+

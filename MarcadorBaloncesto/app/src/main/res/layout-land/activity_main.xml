@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pablo.marcadorbaloncesto.MainActivity">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f26a21">
+
+            <TextView
+                android:id="@+id/textLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="casual"
+                android:text="LOCAL"
+                android:textColor="#1d8247"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/MarcadorLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textLocal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/textview_border"
+                android:backgroundTint="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textVisitante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:fontFamily="casual"
+                android:text="VISITANTE"
+                android:textColor="#1d8247"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/restarLocal"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/MarcadorLocal"
+                android:text="-1" />
+
+
+            <TextView
+                android:id="@+id/MarcadorVisitante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textVisitante"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="25dp"
+                android:width="100dp"
+                android:height="100dp"
+                android:background="@drawable/textview_border"
+                android:backgroundTint="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/restarVisitante"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/MarcadorVisitante"
+                android:text="-1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:background="#ce5616">
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:text="reset"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/fin"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/reset"
+                android:layout_centerHorizontal="true"
+                android:text="final"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/threepointsV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundcorner"
+                android:text="3 puntos"
+                android:layout_marginEnd="32dp"
+                android:layout_alignBottom="@+id/onepointV"
+                android:layout_toStartOf="@+id/onepointV" />
+
+            <Button
+                android:id="@+id/onepointV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundcorner"
+                android:text="1  punto"
+                android:layout_alignBottom="@+id/onepointL" />
+
+            <Button
+                android:id="@+id/twopointsV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundcorner"
+                android:text="2\npuntos" />
+
+            <Button
+                android:id="@+id/twopointsL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/roundcorner"
+                android:gravity="center"
+                android:text="2\npuntos" />
+
+            <Button
+                android:id="@+id/onepointL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/roundcorner"
+                android:text="1 punto"
+                android:layout_below="@+id/reset"
+                android:layout_toEndOf="@+id/threepointsL"
+                android:layout_marginStart="37dp" />
+
+            <Button
+                android:id="@+id/threepointsL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/roundcorner"
+                android:text="3 puntos"
+                android:layout_alignBaseline="@+id/onepointL"
+                android:layout_alignBottom="@+id/onepointL"
+                android:layout_alignStart="@+id/twopointsL"
+                android:layout_marginStart="10dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

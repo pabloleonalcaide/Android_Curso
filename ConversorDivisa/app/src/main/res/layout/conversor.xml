@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:layout_below="@+id/input"
+            android:elevation="2.8dp"
+            android:background="@drawable/border2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:entries="@array/conversiones"
+            android:layout_marginTop="27dp" />
+
+        <Button
+            android:elevation="2.0dp"
+            android:id="@+id/enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:background="@drawable/border"
+            android:layout_alignTop="@+id/input"
+            android:layout_toEndOf="@+id/input"
+            android:textColor="@color/gray"
+            android:layout_marginStart="16dp" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/spinner"
+            android:layout_alignStart="@+id/resultado" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Conversor_Examen_PabloLeon</string>
+    <string-array name="conversiones">
+        <item>Euro a dolares</item>
+        <item>Euro a libras</item>
+        <item>Euro a yenes</item>
+        <item>Libra a dolares</item>
+        <item>Libra a euros</item>
+        <item>Libra a yenes</item>
+        <item>Dolar a euros</item>
+        <item>Dolar a libras</item>
+        <item>Dolar a yenes</item>
+        <item>Yen a euros</item>
+        <item>Yen a libras</item>
+        <item>Yen a dolares</item>
+    </string-array>
+
+</resources>

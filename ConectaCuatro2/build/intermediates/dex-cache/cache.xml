@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e5e538ca437c1e85166a27da530364659bd102ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pablo/.android/build-cache/a3ab9f868e15431e42edd67452628d772d7679a3/output/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_9fd847d5e643f3faee981a6d24a06e20961afc06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pablo/.android/build-cache/a3ab9f868e15431e42edd67452628d772d7679a3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/pre-dexed/debug/classes_58c9ec9ce5cfac11e9e450d64b68bac312147e2d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="adc10dd4c2adfa60de0bd0115caaac92921d9683">
+        <dex dex="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3b0665a8a7533d6358d6801b8502db16c4f65807/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pablo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/pablo/AndroidStudioProjects/ConectaCuatro2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_016bd71db5a5a691872d6c37846f8208a811b5de.jar" />
+    </item>
+
+</items>

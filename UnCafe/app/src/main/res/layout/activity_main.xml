@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pablo.uncafe.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_alignParentTop="true"
+            android:width="200dp"
+            android:text="" />
+        <TextView
+            android:id="@+id/textTopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textName"
+            android:text="Topping" />
+        <CheckBox
+            android:id="@+id/checkCrema"
+            android:layout_below="@id/textTopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crema" />
+        <CheckBox
+            android:id="@+id/checkChocolate"
+            android:layout_below="@id/checkCrema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chocolate" />
+        <TextView
+            android:id="@+id/textCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkChocolate"
+            android:layout_margin="4dp"
+            android:text="Cantidad" />
+        <Button
+            android:id="@+id/buttonMenos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textCantidad"
+            android:text="-" />
+        <TextView
+            android:id="@+id/textContador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:layout_below="@+id/textCantidad"
+            android:layout_toRightOf="@+id/buttonMenos" />
+        <Button
+            android:id="@+id/buttonMas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCantidad"
+            android:layout_toRightOf="@id/textContador"
+            android:text="+" />
+        <Button
+            android:id="@+id/buttonOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textContador"
+            android:layout_marginLeft="60dp"
+            android:text="Order" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
