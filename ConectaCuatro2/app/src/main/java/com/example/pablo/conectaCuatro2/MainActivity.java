@@ -32,8 +32,6 @@ public class MainActivity extends Activity implements OnClickListener{
 	private Game game;
 	private ImageButton validateButton;
 	private TextView resultadoTextView;
-	private String idPartida;
-	private String numJugador;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
@@ -41,12 +39,6 @@ public class MainActivity extends Activity implements OnClickListener{
 		game = new Game();
 		final Bundle b = this.getIntent().getExtras();
 		TextView info = (TextView) findViewById(R.id.parametros);
-		/*if (!b.getString("MODO").equals("ONLINE")) {
-			idPartida = b.getString("ID");
-			info.setText(b.getString("MODO")+"\n"+idPartida);
-		}
-*/
-
 
 		String x [] = getResources().getStringArray(R.array.colores);
 		for(int i = 0; i< Game.NFILAS;  i++){
@@ -70,7 +62,12 @@ public class MainActivity extends Activity implements OnClickListener{
         game.cadenaATablero(grid);
         pintarTablero();
     }
-	
+
+
+	protected void onPause(){
+		super.onPause();
+		Music.stop(this);
+	}
 
 	protected void onResume(){
 		super.onResume();
@@ -82,9 +79,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		player = getPlayerName(sharedPreferences);
 
 		if(player.trim().length()>0)
-			resultadoTextView.setText("Pablo");
+			resultadoTextView.setText(player);
 		else
-			resultadoTextView.setText("");
+			resultadoTextView.setText("Anonimo");
 
 		if (play == true)
 			Music.play(this, R.raw.musica);
@@ -134,11 +131,7 @@ public class MainActivity extends Activity implements OnClickListener{
     	return color_id;
     }
 
-    
-    protected void onPause(){
-		super.onPause();
-		Music.stop(this);
-    }
+
 
 	
    public void pintarTablero() {

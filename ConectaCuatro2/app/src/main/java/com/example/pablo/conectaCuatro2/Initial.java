@@ -18,8 +18,10 @@ public class Initial extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.initial);
         ImageView img = (ImageView) findViewById(R.id.initial_img);
+
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.initial);
         img.startAnimation(animation);
+
         Button online = (Button) findViewById(R.id.btOnline);
         Button offline = (Button) findViewById(R.id.btOffline);
         online.setOnClickListener(new OnClickListener() {
