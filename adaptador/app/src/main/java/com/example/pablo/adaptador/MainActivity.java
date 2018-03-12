@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long id) {
-
                 TextView tv = (TextView) view.findViewById(R.id.titulo);
+
                 Toast toast = Toast.makeText(getApplicationContext(), tv.getText().toString(), Toast.LENGTH_SHORT);
                 toast.show();
             }
